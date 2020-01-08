@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "Sanomat Grab Web Medium";
+    src: url("//db.onlinewebfonts.com/t/0da9b36b54c73aea1e7dbaff7b140acc.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Sanomat Grab Web Medium";
+    background: #01b051;
+}
+
+
+
+/* index page */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: none;
+}
+
+.container .logo {
+    font-size: 3.2rem;
+    color: white;
+}
+
+
+.location {
+    margin-top: 50px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding: 20px 15px;
+}
+
+.location p {
+    font-weight: no;
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.alert {
+    color: #01b051;
+}
+
+.info {
+    font-size: 14px;
+   
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+}
+.location .ok{
+    margin: 10px 0;
+
+}
+
+.location .ok a {
+    text-decoration: none;
+    color: black;
+}
+
