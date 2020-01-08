@@ -188,15 +188,20 @@ transform: translateX(-50%);
     background: rgba(189, 189, 189, 0.219);
 }
 
+/* .cardWrapper {
+    display: flex;
+    justify-content: center;
+} */
+
 .cardList {
     display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 5px;
+grid-template-columns: repeat(auto-fill, 1fr);
+grid-template-rows: repeat(auto-fill, 1fr);
+grid-column-gap: 10px;
 grid-row-gap: 10px;
 margin-top: 10px;
-align-items: center;
-width: 100%;
+padding: 10px
+
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -213,10 +218,10 @@ width: 100%;
 
     padding-right: 100%;
     border-radius: 10px;
-padding: 6rem 5.5rem ;
-margin-left: 5px;
+padding: 7rem 5rem ;
+
         background: white;
-    box-shadow:0 1px 3px 3px rgba(0, 0, 0, 0.09);
+    box-shadow:0 2px 4px 4px rgba(0, 0, 0, 0.09);
 position: relative;
 background: rgb(149, 231, 149);
 }
