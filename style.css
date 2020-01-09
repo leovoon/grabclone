@@ -69,7 +69,10 @@ body {
     padding: 10px 0;
 }
 .location .ok{
-    margin: 10px 0;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
 
 }
 
